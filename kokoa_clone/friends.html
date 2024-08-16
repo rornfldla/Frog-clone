@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - FrogTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <!--To Do: WiFi Icon-->
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>23:46</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>67%</span>
+        <!-- Battery Icon-->
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <!-- Lightning Icon-->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Frogs</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span>
+          <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a>
+        </span>
+      </div>
+    </header>
+
+    <a href="#" id="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i>
+      Frogs' Names Display
+      <i class="fa-solid fa-chevron-right fa-sm"></i>
+    </a>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/frog2.jpg"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Frog</h4>
+            <h6 class="user-component__subtitle">개구리</h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-sm"></i>
+        </span>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/frog1.jpg"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fa-solid fa-chevron-right fa-sm"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <a href="chat1.html" class="chating-stepping-stone">
+            <img src="img/frog3.jpg" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Frog1</h4>
+            <h6 class="user-component__subtitle">페페</h6>
+          </div>
+          </a>
+          
+        </div>
+        <div class="user-component__column">
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <a href="chat2.html" class="chating-stepping-stone">
+            <img src="img/frog.jpg" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Frog2</h4>
+            <h6 class="user-component__subtitle">
+              개구리는 진리다.
+            </h6>
+          </div>
+          </a>
+        </div>
+        <div class="user-component__column">
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link slide-top" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link nav__transition-chats" href="chats.html">
+            <span class="nav__notification badge">17</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link nav__transition-find" href="find2.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link nav__transition-more" href="more.html">
+            <div class="nav__ellipsis-new-thing"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <i class="fa-solid fa-frog"></i>
+    </div>
+
+    <div id="no-mobile">
+        <span>The size is the size of my height XD</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2334ad392d.js" 
+    crossorigin="anonymous">
+    </script>
+  </body>
+</html>

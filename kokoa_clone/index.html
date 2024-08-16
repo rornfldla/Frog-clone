@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to FrogTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <!--To Do: WiFi Icon-->
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>23:46</span>
+      </div>
+      <div class="status-bar__column">
+        <span>67%</span>
+        <!-- Battery Icon-->
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <!-- Lightning Icon-->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to FrogTalk</h1>
+      <p class="welcome-header__text">
+        If you have a Frog Account, log in with your Froll or Frone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Froll or Frone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find Frog Account or Password</a>
+    </form>
+
+    <div id="splash-screen">
+      <i class="fa-solid fa-frog"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>The size is the size of my height! XD</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/2334ad392d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - FrogTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <!--To Do: WiFi Icon-->
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>23:46</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>67%</span>
+        <!-- Battery Icon-->
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <!-- Lightning Icon-->
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span>
+          <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a>
+        </span>
+        <div class="setting-point"></div>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-address-book"></i>
+          <span id="find-contacts">Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-id-card"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">recommended-frogs</h6>
+        <span>You have no recommended frogs</span>
+      </div>
+
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span>
+            Go to Openchat Home
+            <i class="fa-solid fa-chevron-right fa-sm"></i>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">League of Legends</h5>
+            <h6 class="open-post__hashtags">#mang-game #faker</h6>
+            <div class="open-post__members">
+              <img src="img/frog2.jpg" />
+              <span class="open-post__member-count">797 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="img/lol2.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i>
+                <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">DJMAX RESPECT V</h5>
+            <h6 class="open-post__hashtags">#mang-game #real-mang-game</h6>
+            <div class="open-post__members">
+              <img src="img/frog.jpg" />
+              <span class="open-post__member-count">131 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="img/djmax.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i>
+                <span>79</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-regular fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">17</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find2.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__ellipsis-new-thing"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <i class="fa-solid fa-frog"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>The size is the size of my height! XD</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/2334ad392d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
