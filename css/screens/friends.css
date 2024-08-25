@@ -1,11 +1,11 @@
-#friends-display-link {
+.friends-display-link {
     text-align: center;
     display: block;
     background-color: #fafafa;
     padding: 15px 0px;
 }
 
-#friends-display-link i{
+.friends-display-link i{
     color: rgba(0,0,0,0.3);
     font-size: 18px;
 }
@@ -22,4 +22,68 @@
     justify-content: space-between;
     align-items: center;
     color: rgba(0,0,0,0.5);
+}
+
+
+.user-component__hidden-page {
+    width: 500px;
+    height: 1000px;
+    background-color: rgb(94, 92, 92);
+    position: absolute;
+    top: 100px;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+    visibility: hidden;
+    
+}
+
+.hidden-page__nav {
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.hidden-page__profile {
+    margin-top: 600px;
+    margin-left: 5px;
+}
+
+.hidden-page__status {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: white;
+}
+
+.hidden-page__status span:first-child {
+    margin-bottom: 10px;
+}
+
+.hidden-page__btns {
+    margin-top: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+
+.hidden-page__btn {
+    width: 100px;
+    height: 100px;
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hidden-page__btn i {
+    margin-bottom: 20px;
 }

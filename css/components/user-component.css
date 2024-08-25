@@ -32,6 +32,12 @@
     margin-top: 10px;
 }
 
+.user-component__avatar--2xl {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
 .user-component__avatar--sm {
     width: 60px;
     height: 60px;

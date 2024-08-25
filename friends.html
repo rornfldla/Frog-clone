@@ -31,16 +31,18 @@
       <h1 class="screen-header__title">Frogs</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span>
+          <a href="musics.html"><i class="fa-solid fa-music fa-lg"></i></a>
+        </span>
         <span>
           <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a>
         </span>
       </div>
     </header>
 
-    <a href="#" id="friends-display-link">
+    <a href="https://nomadcoders.co" class="friends-display-link isegye-idol">
       <i class="fa-solid fa-circle-info"></i>
-      Frogs' Names Display
+      Click Here!!
       <i class="fa-solid fa-chevron-right fa-sm"></i>
     </a>
 
@@ -49,11 +51,46 @@
         <div class="user-component__column">
           <img
             src="img/frog2.jpg"
-            class="user-component__avatar user-component__avatar--xl"
+            class="user-component__avatar user-component__avatar--xl hidden-space"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Frog</h4>
             <h6 class="user-component__subtitle">개구리</h6>
+          </div>
+
+          <div class="user-component__hidden-page">
+            <div class="hidden-page__nav">
+              <i class="fa-solid fa-angle-left fa-2x hidden-close"></i>
+              <i class="fa-solid fa-ellipsis-vertical fa-2x"></i>
+            </div>
+            <div class="hidden-page__profile">
+              <img
+                src="img/frog2.jpg"
+                class="user-component__avatar user-component__avatar--2xl"
+              />
+            </div>
+
+            <div class="hidden-page__status">
+              <span>
+                Frog
+                <i class="fa-solid fa-pencil"></i>
+              </span>
+              <span>개구리</span>
+            </div>
+            <div class="hidden-page__btns">
+              <div class="hidden-page__btn">
+                <i class="fa-regular fa-comment fa-xl"></i>
+                <span>나와의 채팅</span>
+              </div>
+              <div class="hidden-page__btn">
+                <i class="fa-solid fa-pencil fa-xl"></i>
+                <span>프로필 편집</span>
+              </div>
+              <div class="hidden-page__btn">
+                <i class="fa-regular fa-credit-card fa-xl"></i>
+                <span>카드 설정</span>
+              </div>
+            </div>
           </div>
         </div>
         <div class="user-component__column"></div>
@@ -125,7 +162,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link nav__transition-chats" href="chats.html">
-            <span class="nav__notification badge">17</span>
+            <span class="nav__notification badge">12</span>
             <i class="fa-regular fa-comment fa-2x"></i>
           </a>
         </li>
@@ -148,11 +185,13 @@
     </div>
 
     <div id="no-mobile">
-        <span>The size is the size of my height XD</span>
+      <span>The size is the size of my height XD</span>
     </div>
 
     <script src="https://kit.fontawesome.com/2334ad392d.js" 
     crossorigin="anonymous">
+    </script>
+    <script src="js/hidden-page.js"> 
     </script>
   </body>
 </html>

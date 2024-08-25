@@ -33,6 +33,11 @@
     margin-left: 20px;
 }
 
+.more-suggestions__icon-image img {
+    width: 62px;
+    height: 62px;
+}
+
 .more-suggestions__icon {
     margin-right:30px;
     display: flex;
@@ -54,4 +59,19 @@
 .more-suggestions__icon-image i {
     font-size: 32px;
     color: white;
+}
+
+@keyframes isegye {
+    0% { color: red; }
+    16.67% { color: orange; }
+    33.33% { color: yellow; }
+    50% { color: green; }
+    66.67% { color: blue; }
+    83.33% { color: indigo; }
+    90% { color: violet; }
+    100% { color: red;}
+}
+
+.isegye-idol {
+    animation: isegye 5s infinite ;
 }
